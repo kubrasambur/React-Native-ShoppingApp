@@ -3,19 +3,19 @@
 [Patika.dev](https://app.patika.dev/) Project assignment I developed to reinforce what I learned in React Native trainings.
 
 ## Features
-- react navigation used
-- switch between pages
+- React navigation used
+- Switch between pages
 - Data was pulled from https://fakestoreapi.com/ with axios
-- Each item has detail page 
-- page loading and error animations added with using lottie package
+- Clicking on the elements goes to the detail page
+- Page loading and error animations added with using lottie package
 - All of the products are in a separate category and there is access to all categories from the home page.
 
 ## Özellikler
-- react navigation kullanıldı
-- sayfalar arası geçiş yapıldı
+- React navigation kullanıldı
+- Sayfalar arası geçiş yapıldı
 - Axios ile  https://fakestoreapi.com/ den veri çekildi
-- Her elemanın detay sayfası var 
-- sayfa yükleniyor ve error animasyonları eklendi lottie paketini kullanarak
+- Elemanlara tıklandığı zaman detay sayfasına gider
+- Sayfa yükleniyor ve error animasyonları eklendi lottie paketini kullanarak
 - Ürünlerin hepsi ayrı kategoride ve ana sayfadan tüm kategorilere erişim var
 
 ## Images
