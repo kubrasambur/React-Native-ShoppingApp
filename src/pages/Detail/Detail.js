@@ -2,8 +2,8 @@ import {Image, Text, View} from 'react-native';
 import React from 'react';
 import styles from './Detail.styles';
 import useFetch from '../../hooks/useFetch/useFetch';
-//import Loading from '../../components/Loading/Loading';
-//import Error from '../../components/Error/ErrorAnimation';
+import Loading from '../../components/Loading/Loading';
+import Error from '../../components/Error/ErrorAnimation';
 
 const URL = 'https://fakestoreapi.com/products';
 
@@ -12,13 +12,13 @@ const Detail = ({route}) => {
   const {id} = route.params;
   const {loading, error, data} = useFetch(`${URL}/${id}`);
 
-  // if (loading) {
-  //   return <Loading />;
-  // }
+  if (loading) {
+    return <Loading />;
+  }
 
-  // if (error) {
-  //   return <Error />;
-  // }
+  if (error) {
+    return <Error />;
+  }
 
   return (
     <View style={styles.container}>

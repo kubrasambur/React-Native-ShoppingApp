@@ -10,7 +10,7 @@ const Home = ({navigation}) => {
     navigation.navigate('Women');
   }
   function handlePressM() {
-    navigation.navigate('Man');
+    navigation.navigate('Men');
   }
   function handlePressJ() {
     navigation.navigate('Jewelry');
